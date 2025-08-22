@@ -60,7 +60,7 @@ const Navigation = () => {
               className="bg-gradient-primary hover:opacity-90 text-white font-bold tracking-wider px-6 py-2 rounded-full shadow-glow animate-smooth"
               asChild
             >
-              <a href="tel:+1234567890" className="flex items-center space-x-2">
+              <a href="https://wa.link/rf31vp" className="flex items-center space-x-2" target="_blank" rel="noopener noreferrer">
                 <Phone className="w-4 h-4" />
                 <span>BOOK NOW</span>
               </a>

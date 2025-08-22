@@ -9,7 +9,7 @@ const Blog = () => {
     id: 1,
     title: "THE FUTURE OF SOCIAL MEDIA MARKETING: AI-POWERED STRATEGIES",
     excerpt: "Discover how artificial intelligence is revolutionizing social media marketing and learn the strategies that will give your brand a competitive edge in 2024 and beyond.",
-    author: "ALEX RODRIGUEZ",
+    author: "ROHAN SHARMA",
     date: "MARCH 15, 2024",
     readTime: "8 MIN READ",
     category: "DIGITAL MARKETING",
@@ -21,7 +21,7 @@ const Blog = () => {
       id: 2,
       title: "10 CONTENT CREATION TIPS THAT WILL MAKE YOUR BRAND GO VIRAL",
       excerpt: "Learn the secrets behind viral content and discover proven strategies to create engaging posts that capture attention and drive massive engagement.",
-      author: "SARAH CHEN",
+      author: "PRIYA SINGH",
       date: "MARCH 12, 2024",
       readTime: "6 MIN READ",
       category: "CONTENT STRATEGY"
@@ -30,7 +30,7 @@ const Blog = () => {
       id: 3,
       title: "BRAND STORYTELLING: HOW TO CREATE EMOTIONAL CONNECTIONS",
       excerpt: "Master the art of brand storytelling and learn how to create authentic narratives that resonate with your audience and build lasting relationships.",
-      author: "MICHAEL JOHNSON",
+      author: "AMIT PATEL",
       date: "MARCH 10, 2024",
       readTime: "7 MIN READ",
       category: "BRAND STRATEGY"
@@ -39,7 +39,7 @@ const Blog = () => {
       id: 4,
       title: "SOCIAL MEDIA ANALYTICS: MEASURING SUCCESS BEYOND VANITY METRICS",
       excerpt: "Dive deep into the metrics that truly matter and learn how to measure ROI, engagement quality, and business impact from your social media efforts.",
-      author: "EMMA DAVIS",
+      author: "NEHA GUPTA",
       date: "MARCH 8, 2024",
       readTime: "9 MIN READ",
       category: "ANALYTICS"
@@ -48,7 +48,7 @@ const Blog = () => {
       id: 5,
       title: "THE RISE OF SHORT-FORM VIDEO: MAXIMIZING IMPACT IN SECONDS",
       excerpt: "Explore the explosive growth of short-form video content and discover techniques to create compelling videos that stop the scroll and drive action.",
-      author: "ALEX RODRIGUEZ",
+      author: "ROHAN SHARMA",
       date: "MARCH 5, 2024",
       readTime: "5 MIN READ",
       category: "VIDEO MARKETING"
@@ -57,7 +57,7 @@ const Blog = () => {
       id: 6,
       title: "BUILDING AUTHENTIC COMMUNITIES: FROM FOLLOWERS TO BRAND ADVOCATES",
       excerpt: "Transform your social media followers into a thriving community of brand advocates with proven community-building strategies and engagement techniques.",
-      author: "SARAH CHEN",
+      author: "PRIYA SINGH",
       date: "MARCH 3, 2024",
       readTime: "8 MIN READ",
       category: "COMMUNITY BUILDING"
@@ -66,7 +66,7 @@ const Blog = () => {
       id: 7,
       title: "INFLUENCER MARKETING IN 2024: MICRO VS MACRO INFLUENCERS",
       excerpt: "Navigate the evolving influencer landscape and learn how to choose between micro and macro influencers for maximum impact and ROI.",
-      author: "MICHAEL JOHNSON",
+      author: "AMIT PATEL",
       date: "MARCH 1, 2024",
       readTime: "6 MIN READ",
       category: "INFLUENCER MARKETING"

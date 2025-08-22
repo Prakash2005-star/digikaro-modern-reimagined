@@ -83,7 +83,7 @@ const Contact = () => {
                     </label>
                     <Input 
                       type="tel"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+911234567890"
                       className="glass-card border-white/20 bg-transparent focus:border-primary h-12"
                     />
                   </div>
@@ -105,11 +105,11 @@ const Contact = () => {
                     </label>
                     <select className="w-full glass-card border-white/20 bg-background focus:border-primary h-12 px-4 rounded-lg">
                       <option value="">Select your budget range</option>
-                      <option value="under-1k">Under $1,000</option>
-                      <option value="1k-5k">$1,000 - $5,000</option>
-                      <option value="5k-10k">$5,000 - $10,000</option>
-                      <option value="10k-25k">$10,000 - $25,000</option>
-                      <option value="25k-plus">$25,000+</option>
+                      <option value="under-10k">Under ₹10,000</option>
+                      <option value="10k-50k">₹10,000 - ₹50,000</option>
+                      <option value="50k-100k">₹50,000 - ₹1,00,000</option>
+                      <option value="100k-250k">₹1,00,000 - ₹2,50,000</option>
+                      <option value="250k-plus">₹2,50,000+</option>
                     </select>
                   </div>
                   
@@ -174,9 +174,9 @@ const Contact = () => {
                       </div>
                       <div className="flex-1">
                         <h3 className="font-bold text-gradient mb-2 uppercase text-lg">EMAIL</h3>
-                        <p className="text-muted-foreground mb-1">General: hello@digikarocreatives.com</p>
-                        <p className="text-muted-foreground mb-1">Projects: projects@digikarocreatives.com</p>
-                        <p className="text-muted-foreground mb-3">Support: support@digikarocreatives.com</p>
+                        <p className="text-muted-foreground mb-1">General: info@digikarocreatives.com</p>
+                        <p className="text-muted-foreground mb-1">Projects: info@digikarocreatives.com</p>
+                        <p className="text-muted-foreground mb-3">Support: info@digikarocreatives.com</p>
                         <p className="text-sm text-accent">We respond within 2-4 hours</p>
                       </div>
                     </div>

@@ -132,19 +132,19 @@ const Footer = () => {
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                 <a 
-                  href="tel:+1234567890"
+                  href="tel:+919878653380"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +1 (555) 123-4567
+                  +91 9878653380
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <a 
-                  href="mailto:hello@digikarocreatives.com"
+                  href="mailto:info@digikarocreatives.com"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  hello@digikarocreatives.com
+                  info@digikarocreatives.com
                 </a>
               </li>
             </ul>
@@ -171,7 +171,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © 2024 DIGIKARO CREATIVES. ALL RIGHTS RESERVED.
+            © 2025 DIGIKARO CREATIVES . ALL RIGHTS RESERVED | DESIGN & DEVELOPMENT BY M. PRAKASH 004
           </p>
           
           <div className="flex items-center space-x-6">

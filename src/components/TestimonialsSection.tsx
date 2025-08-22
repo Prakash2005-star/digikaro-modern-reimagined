@@ -4,36 +4,36 @@ import { Card, CardContent } from "@/components/ui/card";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "SARAH JOHNSON",
-      position: "CEO, TECHCORP",
-      company: "TechCorp Solutions",
+      name: "PRIYA SHARMA",
+      position: "CEO, INFOTECH SOLUTIONS",
+      company: "InfoTech Solutions",
       rating: 5,
       text: "Digikaro Creatives completely transformed our social media presence. Their AI-powered content strategy increased our engagement by 300% and helped us go viral multiple times. Absolutely phenomenal results!",
-      avatar: "SJ"
+      avatar: "PS"
     },
     {
-      name: "MICHAEL CHEN",
-      position: "MARKETING DIRECTOR, INNOVATE",
-      company: "Innovate Digital",
+      name: "AMIT PATEL",
+      position: "MARKETING HEAD, CREATIVE NEST",
+      company: "Creative Nest Digital",
       rating: 5,
       text: "The team at Digikaro is incredibly professional and creative. They understood our brand vision perfectly and delivered content that truly resonates with our audience. Our follower count doubled in just 2 months!",
-      avatar: "MC"
+      avatar: "AP"
     },
     {
-      name: "EMMA RODRIGUEZ",
-      position: "FOUNDER, BRANDMAX",
-      company: "BrandMax Agency",
+      name: "NEHA SINGH",
+      position: "FOUNDER, GROWDIGITAL",
+      company: "GrowDigital Agency",
       rating: 5,
       text: "Working with Digikaro Creatives was the best decision we made for our digital marketing. Their strategic approach and creative execution helped us achieve a 250% increase in qualified leads.",
-      avatar: "ER"
+      avatar: "NS"
     },
     {
-      name: "DAVID THOMPSON",
-      position: "CMO, DIGITECH",
-      company: "DigiTech Solutions", 
+      name: "RAHUL VERMA",
+      position: "CMO, SMART BRAND",
+      company: "Smart Brand Marketing", 
       rating: 5,
       text: "Exceptional service and outstanding results! Digikaro's team created a comprehensive content strategy that not only increased our brand awareness but also significantly improved our conversion rates.",
-      avatar: "DT"
+      avatar: "RV"
     },
   ];
 

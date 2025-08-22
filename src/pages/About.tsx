@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 
 const About = () => {
   const team = [
-    { name: "ALEX RODRIGUEZ", role: "FOUNDER & CEO", expertise: "Brand Strategy", initials: "AR" },
-    { name: "SARAH CHEN", role: "CREATIVE DIRECTOR", expertise: "Visual Design", initials: "SC" },
-    { name: "MICHAEL JOHNSON", role: "SOCIAL MEDIA MANAGER", expertise: "Content Strategy", initials: "MJ" },
-    { name: "EMMA DAVIS", role: "MARKETING SPECIALIST", expertise: "Digital Campaigns", initials: "ED" },
+    { name: "GAURAV DORAHA", role: "FOUNDER", expertise: "Brand Strategy & Vision", initials: "GD" },
+    { name: "M. PRAKASH", role: "TECHNOLOGY HEAD AND DEVELOPER", expertise: "Web Development & AI Integration", initials: "MP" },
+    { name: "PRIYA SHARMA", role: "CREATIVE DIRECTOR", expertise: "Visual Design & Content", initials: "PS" },
+    { name: "AMIT PATEL", role: "MARKETING SPECIALIST", expertise: "Digital Campaigns & SEO", initials: "AP" },
   ];
 
   const values = [
@@ -205,8 +205,8 @@ const About = () => {
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-gradient mb-4">CALL US</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                <p className="text-muted-foreground">+1 (555) 987-6543</p>
+                <p className="text-muted-foreground">+919310457577</p>
+                <p className="text-muted-foreground">+919878653380</p>
               </CardContent>
             </Card>
 
@@ -216,8 +216,7 @@ const About = () => {
                   <Mail className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-gradient mb-4">EMAIL US</h3>
-                <p className="text-muted-foreground">hello@digikarocreatives.com</p>
-                <p className="text-muted-foreground">projects@digikarocreatives.com</p>
+                <p className="text-muted-foreground">info@digikarocreatives.com</p>
               </CardContent>
             </Card>
 

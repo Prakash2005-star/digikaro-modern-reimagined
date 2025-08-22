@@ -63,7 +63,7 @@ const ClientLogos = () => {
               approach to social media management increased our engagement by 300% within just 3 months."
             </p>
             <div className="text-sm text-accent font-semibold tracking-wider">
-              - SARAH JOHNSON, CEO OF TECHCORP
+              - M. Prakash ( CEO Nandika Web Solution )
             </div>
           </div>
         </div>

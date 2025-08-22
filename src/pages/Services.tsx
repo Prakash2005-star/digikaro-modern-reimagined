@@ -17,7 +17,6 @@ const Services = () => {
         "Hashtag Research & Optimization", "Influencer Collaboration", "Social Media Analytics", 
         "Paid Social Advertising", "Brand Reputation Management"
       ],
-      pricing: "Starting from $499/month"
     },
     {
       id: "content-creation",
@@ -29,7 +28,6 @@ const Services = () => {
         "Copywriting for All Channels", "Email Marketing Content", "Website Content", 
         "Product Descriptions", "Brand Storytelling"
       ],
-      pricing: "Starting from $299/month"
     },
     {
       id: "brand-marketing",
@@ -41,7 +39,6 @@ const Services = () => {
         "Competitor Analysis", "Target Audience Research", "Brand Positioning", 
         "Marketing Automation", "ROI Optimization"
       ],
-      pricing: "Starting from $799/month"
     },
     {
       id: "photography",
@@ -53,7 +50,6 @@ const Services = () => {
         "Promotional Videos", "Social Media Content", "Behind-the-Scenes Content", 
         "Video Editing & Post-Production"
       ],
-      pricing: "Starting from $199/session"
     },
     {
       id: "analytics",
@@ -65,7 +61,6 @@ const Services = () => {
         "A/B Testing", "Custom Reporting", "ROI Analysis", "Competitor Benchmarking", 
         "Strategic Recommendations"
       ],
-      pricing: "Starting from $199/month"
     },
     {
       id: "design",
@@ -76,7 +71,6 @@ const Services = () => {
         "Logo Design & Branding", "Brand Guidelines", "Marketing Materials", "Website Design", 
         "UI/UX Design", "Print Design", "Packaging Design", "Brand Refresh & Redesign"
       ],
-      pricing: "Starting from $399/project"
     },
   ];
 
@@ -145,9 +139,9 @@ const Services = () => {
                       </div>
                       
                       <div className="flex items-center justify-between">
-                        <div className="text-2xl font-bold text-gradient">
+                        {/* <div className="text-2xl font-bold text-gradient">
                           {service.pricing}
-                        </div>
+                        </div> */}
                         <Button className="bg-gradient-primary hover:opacity-90 text-white font-bold tracking-wider px-6 py-3 rounded-full">
                           GET QUOTE
                         </Button>
