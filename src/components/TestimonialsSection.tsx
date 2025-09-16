@@ -40,15 +40,15 @@ const TestimonialsSection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background glow effects */}
-      <div className="absolute top-1/4 right-0 w-96 h-96 bg-secondary/10 rounded-full filter blur-3xl"></div>
-      <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-primary/10 rounded-full filter blur-3xl"></div>
+      <div className="absolute top-1/4 right-0 w-96 h-96 bg-transparent rounded-full filter blur-3xl"></div>
+      <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-transparent rounded-full filter blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gradient-hero">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
             CLIENT TESTIMONIALS
           </h2>
-          <div className="w-24 h-1 bg-gradient-primary mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Don't just take our word for it. Here's what our clients say about working with us 
             and the results they've achieved.
@@ -64,12 +64,12 @@ const TestimonialsSection = () => {
             >
               <CardContent className="p-8 relative">
                 {/* Quote icon */}
-                <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/30" />
+                <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/50" />
                 
                 {/* Rating stars */}
                 <div className="flex items-center space-x-1 mb-6">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+                    <Star key={i} className="w-5 h-5 fill-primary text-primary" />
                   ))}
                 </div>
                 
@@ -80,19 +80,19 @@ const TestimonialsSection = () => {
                 
                 {/* Client info */}
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-sm">
+                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-primary-foreground font-bold text-sm">
                       {testimonial.avatar}
                     </span>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gradient text-lg">
+                    <h4 className="font-bold text-foreground text-lg">
                       {testimonial.name}
                     </h4>
                     <p className="text-sm text-muted-foreground">
                       {testimonial.position}
                     </p>
-                    <p className="text-xs text-accent font-medium">
+                    <p className="text-xs text-primary font-medium">
                       {testimonial.company}
                     </p>
                   </div>
@@ -105,13 +105,13 @@ const TestimonialsSection = () => {
         {/* CTA Section */}
         <div className="text-center mt-16 animate-fade-in">
           <div className="glass-card border-white/10 rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-gradient mb-4">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
               BECOME OUR NEXT SUCCESS STORY
             </h3>
             <p className="text-muted-foreground mb-6">
               Join these satisfied clients and see how we can transform your brand's digital presence.
             </p>
-            <button className="bg-gradient-primary hover:opacity-90 text-white font-bold tracking-wider px-8 py-4 rounded-full shadow-glow animate-smooth">
+            <button className="bg-primary hover:opacity-90 text-primary-foreground font-bold tracking-wider px-8 py-4 rounded-full shadow-glow animate-smooth">
               GET YOUR FREE CONSULTATION
             </button>
           </div>

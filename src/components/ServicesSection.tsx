@@ -57,11 +57,10 @@ const ServicesSection = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">
-          {services.map((service, index) => (
+          {services.map((service) => (
             <Card 
               key={service.title}
               className="glass-card border-white/10 hover:border-primary/30 transition-all duration-500 group animate-fade-in h-full"
-              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4 mb-6">
@@ -85,6 +84,10 @@ const ServicesSection = () => {
                     </li>
                   ))}
                 </ul>
+                
+                <Button variant="ghost" className="text-primary hover:text-primary-foreground hover:bg-primary transition-colors duration-300">
+                  LEARN MORE <span className="ml-2">→</span>
+                </Button>
               </CardContent>
             </Card>
           ))}

@@ -38,14 +38,14 @@ const BrandMission = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background glow */}
-      <div className="absolute inset-0 bg-gradient-glow opacity-30"></div>
+      <div className="absolute inset-0 bg-background opacity-30"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gradient-hero">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
             BRAND MISSION
           </h2>
-          <div className="w-24 h-1 bg-gradient-primary mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             At Digikaro Creatives, our mission is to empower startups & small businesses to achieve 
             organic growth and desired results. We aim to elevate brands to the next level through 
@@ -62,10 +62,10 @@ const BrandMission = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="p-8 text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <value.icon className="w-8 h-8 text-white" />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <value.icon className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-bold mb-4 text-gradient">
+                <h3 className="text-xl font-bold mb-4 text-foreground">
                   {value.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">

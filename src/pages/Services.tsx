@@ -153,9 +153,9 @@ const Services = () => {
                 {/* Visual */}
                 <div className={index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
                   <div className="glass-card border-white/10 p-8 rounded-2xl text-center">
-                    <div className="w-32 h-32 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-glow">
-                      <service.icon className="w-16 h-16 text-white" />
-                    </div>
+                    <div className="flex h-20 w-20 items-center justify-center rounded-xl bg-gradient-primary shadow-lg dark:bg-gradient-primary">
+                          <service.icon className="w-8 h-8 text-white" />
+                      </div>
                     <h3 className="text-xl font-bold text-gradient mb-4">
                       PROFESSIONAL {service.title.split(' ')[0]} SOLUTIONS
                     </h3>

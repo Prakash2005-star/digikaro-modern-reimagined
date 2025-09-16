@@ -3,10 +3,11 @@ import Footer from "@/components/Footer";
 import { Users, Target, Award, Heart, Phone, Mail, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import gauravDorahaImage from "/placeholder.svg"; // Placeholder for Gaurav Doraha's image
 
 const About = () => {
   const team = [
-    { name: "GAURAV DORAHA", role: "FOUNDER", expertise: "Brand Strategy & Vision", initials: "GD" },
+    { name: "GAURAV DORAHA", role: "FOUNDER", expertise: "Brand Strategy & Vision", initials: "GD", image: gauravDorahaImage },
     { name: "M. PRAKASH", role: "TECHNOLOGY HEAD AND DEVELOPER", expertise: "Web Development & AI Integration", initials: "MP" },
     { name: "PRIYA SHARMA", role: "CREATIVE DIRECTOR", expertise: "Visual Design & Content", initials: "PS" },
     { name: "AMIT PATEL", role: "MARKETING SPECIALIST", expertise: "Digital Campaigns & SEO", initials: "AP" },
@@ -162,10 +163,14 @@ const About = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-8 text-center">
-                  <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-glow">
-                    <span className="text-white font-bold text-xl">
-                      {member.initials}
-                    </span>
+                  <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-glow overflow-hidden">
+                    {member.image ? (
+                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                    ) : (
+                      <span className="text-white font-bold text-xl">
+                        {member.initials}
+                      </span>
+                    )}
                   </div>
                   <h3 className="text-lg font-bold text-gradient mb-2">
                     {member.name}

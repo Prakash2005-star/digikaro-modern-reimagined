@@ -25,11 +25,11 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative bg-gradient-to-br from-background via-background to-primary/5 border-t border-white/10">
+    <footer className="relative bg-background border-t border-primary/10">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-1/4 w-64 h-64 bg-primary/10 rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-secondary/10 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-0 left-1/4 w-64 h-64 bg-primary/20 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-secondary/20 rounded-full filter blur-3xl"></div>
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-16">
@@ -37,11 +37,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="animate-fade-in">
             <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">D</span>
+              <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
+                <span className="text-primary-foreground font-bold text-xl">D</span>
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gradient-hero leading-none">
+                <h1 className="text-2xl font-bold text-foreground leading-none">
                   DIGIKARO
                 </h1>
                 <p className="text-sm text-muted-foreground uppercase tracking-wider">
@@ -58,25 +58,25 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a 
                 href="#" 
-                className="w-10 h-10 glass-card border-white/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
+                className="w-10 h-10 glass-card border-primary/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
               >
                 <Facebook className="w-5 h-5 text-muted-foreground hover:text-primary" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 glass-card border-white/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
+                className="w-10 h-10 glass-card border-primary/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
               >
                 <Twitter className="w-5 h-5 text-muted-foreground hover:text-primary" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 glass-card border-white/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
+                className="w-10 h-10 glass-card border-primary/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
               >
                 <Instagram className="w-5 h-5 text-muted-foreground hover:text-primary" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 glass-card border-white/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
+                className="w-10 h-10 glass-card border-primary/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors"
               >
                 <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary" />
               </a>
@@ -85,7 +85,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            <h3 className="text-xl font-bold text-gradient mb-6">QUICK LINKS</h3>
+            <h3 className="text-xl font-bold text-foreground mb-6">QUICK LINKS</h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
@@ -102,7 +102,7 @@ const Footer = () => {
 
           {/* Services */}
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <h3 className="text-xl font-bold text-gradient mb-6">OUR SERVICES</h3>
+            <h3 className="text-xl font-bold text-foreground mb-6">OUR SERVICES</h3>
             <ul className="space-y-3">
               {services.map((service) => (
                 <li key={service.name}>
@@ -119,7 +119,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            <h3 className="text-xl font-bold text-gradient mb-6">CONTACT INFO</h3>
+            <h3 className="text-xl font-bold text-foreground mb-6">CONTACT INFO</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -151,17 +151,17 @@ const Footer = () => {
 
             {/* Newsletter Signup */}
             <div className="mt-8">
-              <h4 className="text-sm font-bold text-gradient mb-4 uppercase tracking-wider">
+              <h4 className="text-sm font-bold text-foreground mb-4 uppercase tracking-wider">
                 STAY UPDATED
               </h4>
               <div className="flex space-x-2">
                 <input 
                   type="email" 
                   placeholder="Your email"
-                  className="flex-1 glass-card border-white/20 bg-transparent px-4 py-2 text-sm rounded-lg focus:border-primary focus:outline-none"
+                  className="flex-1 glass-card border-primary/20 bg-transparent px-4 py-2 text-sm rounded-lg focus:border-primary focus:outline-none"
                 />
-                <button className="bg-gradient-primary hover:opacity-90 text-white px-4 py-2 rounded-lg transition-opacity">
-                  <Mail className="w-4 h-4" />
+                <button className="bg-primary hover:opacity-90 text-primary-foreground px-4 py-2 rounded-lg transition-opacity">
+                  <Mail className="w-4 h-4 text-primary-foreground" />
                 </button>
               </div>
             </div>
@@ -169,7 +169,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-primary/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
             © 2025 DIGIKARO CREATIVES . ALL RIGHTS RESERVED | DESIGN & DEVELOPMENT BY M. PRAKASH 004
           </p>
@@ -189,7 +189,7 @@ const Footer = () => {
             </Link>
             <button 
               onClick={scrollToTop}
-              className="w-10 h-10 glass-card border-white/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors group"
+              className="w-10 h-10 glass-card border-primary/20 rounded-lg flex items-center justify-center hover:border-primary/30 transition-colors group"
             >
               <ArrowUp className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </button>
